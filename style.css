@@ -1,4 +1,14 @@
 
+html{
+    height: 100%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
 .login{
     width: 400px;
     height: 150px;
@@ -6,6 +16,7 @@
     text-align: center;
     padding-top: 35px;
     margin-top:  100px;
+    position: fixed;
 }
 
 .log{
@@ -17,11 +28,18 @@
 }
 
 p{
-    padding-right: 270px;
     color: darkgray;
     font-size: 14px;
     font-family: Roboto;
     
+}
+
+#p{
+    padding-right: 270px;
+}
+
+a{
+    font-family: Roboto;
 }
 
 input{
@@ -82,4 +100,113 @@ b{
 
 .footer{
     padding-top: 60px
+}
+
+input:focus{
+    outline: none;
+}
+
+#logo{
+    
+    height: 100px;
+    padding-left: 65px;
+    padding-top: 20px;
+    
+}
+
+#name{
+    font-size: 17px;
+}
+
+#panel{
+    color: black;
+    display: inline-block;
+    padding-left: 20px;
+    
+}
+
+.int{
+    position: absolute;
+    font-size: 18px;
+    font-family: Roboto;
+    padding-left: 20px;
+    color: black;
+}
+
+.footer{
+    background-color: #EEEE;
+    height: 10%;
+
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.icon{
+    font-size: 25px;
+    color: gray;
+}
+
+#logo-head{
+    background-color: #d4e157;
+    height: 123px;
+    width: 230px;
+    margin-left: -16px;
+    
+}
+#menu{
+    width: 250px;
+    height: 600px;
+    background-color: #EEEE;
+}
+
+.menu{
+    
+    position: absolute;
+    height: 600px;
+    
+}
+
+#header{
+    height: 10%;
+    background-color: #EEEE;
+    color: darkgray;
+    
+}
+
+h2{
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+#name{
+    float: right;
+    padding: 0;
+    padding-right: 50px;
+    
+    
+}
+#img{
+    height: 30px;
+    border-radius: 100px;
+    float: right;
+}
+
+#inputs{
+    height: 600px;
+}
+
+.interviews{
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 170px;
+    height: 50px
+}
+
+
+
+#left-menu{
+    
 }
